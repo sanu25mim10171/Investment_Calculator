@@ -6,17 +6,17 @@ It is a helpful tool for personal finance modeling and understanding the power o
 
 🌟 Features
 
-Two Calculation Modes:
+->Two Calculation Modes:
 
-Lump-Sum Investment: Calculates the future value of a single initial deposit, compounded annually.
+  1. Lump-Sum Investment: Calculates the future value of a single initial deposit, compounded annually.
 
-Investment with Contributions: Calculates the future value of an initial deposit combined with a fixed, regular monthly contribution, compounded monthly.
+  2. Investment with Contributions: Calculates the future value of an initial deposit combined with a fixed, regular monthly contribution, compounded monthly.
 
-Robust Input Handling: The script ensures all user inputs (Principal, Rate, Years, Contributions) are valid, non-negative numeric values.
+->Robust Input Handling: The script ensures all user inputs (Principal, Rate, Years, Contributions) are valid, non-negative numeric values.
 
-Detailed Financial Output: Clearly displays the initial investment, total money contributed, future value, and total interest earned.
+->Detailed Financial Output: Clearly displays the initial investment, total money contributed, future value, and total interest earned.
 
-Clear Structure: Uses separate, well-commented functions for each calculation mode.
+->Clear Structure: Uses separate, well-commented functions for each calculation mode.
 
 🚀 Getting Started
 
@@ -24,20 +24,18 @@ Prerequisites
 
 Python 3.x installed on your system.
 
-How to Run
+How to Run:
 
-Save the provided code as a Python file (e.g., investment_calculator.py).
+1. Save the provided code as a Python file (e.g., investment_calculator.py).
 
-Open your terminal or command prompt (CMD, PowerShell, or VS Code Terminal).
+2. Open your terminal or command prompt (CMD, PowerShell, or VS Code Terminal).
 
-Navigate to the directory where you saved the file.
+3. Navigate to the directory where you saved the file.
 
-Run the script using the Python interpreter:
+4. Run the script using the Python interpreter:
+   python investment_calculator.py
 
-python investment_calculator.py
-
-
-Follow the interactive prompts to select the calculation mode and enter your investment details.
+5. Follow the interactive prompts to select the calculation mode and enter your investment details.
 
 📊 Calculation Details
 
@@ -69,3 +67,4 @@ Where $n=12$ (monthly compounding) and $PMT$ is the monthly contribution.
 If you re-installed Python, make sure you checked the box "Add python.exe to PATH" during installation.
 
 If these steps are completed, running the script in your terminal should execute the program successfully.
+
