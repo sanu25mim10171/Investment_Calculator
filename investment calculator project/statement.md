@@ -10,24 +10,24 @@ Key Features and Calculation Modes
 
 The program supports two primary modes of investment calculation:
 
-Lump-Sum Investment:
+1. Lump-Sum Investment:
 
-Description: Calculates the future value of a single, upfront deposit.
+   Description: Calculates the future value of a single, upfront deposit.
 
-Compounding: Annual.
+   Compounding: Annual.
 
-Formula: $A = P (1 + r)^t$
+   Formula: $A = P (1 + r)^t$
 
-Investment with Monthly Contributions (Annuity Model):
+2. Investment with Monthly Contributions (Annuity Model):
 
-Description: Models a scenario involving an initial principal plus continuous, regular monthly contributions (Dollar-Cost Averaging).
+   Description: Models a scenario involving an initial principal plus continuous, regular monthly contributions (Dollar-Cost Averaging).
 
-Compounding: Monthly ($n=12$).
+   Compounding: Monthly ($n=12$).
 
-Formula:
+  Formula:
 
 
-$$\text{FV} = P \left(1 + \frac{r}{n}\right)^{nt} + \text{PMT} \left[ \frac{\left(1 + \frac{r}{n}\right)^{nt} - 1}{\frac{r}{n}} \right]$$
+  $$\text{FV} = P \left(1 + \frac{r}{n}\right)^{nt} + \text{PMT} \left[ \frac{\left(1 + \frac{r}{n}\right)^{nt} - 1}{\frac{r}{n}} \right]$$
 
 Technical Details:
 
