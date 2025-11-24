@@ -1,56 +1,50 @@
 Project Statement: Comprehensive Investment Calculator
 
-1. Project Identification
+Overview and Purpose
 
-Field
+This project is a command-line utility, developed in Python, designed for accessible and precise financial modeling. The primary goal is to empower users, especially students and novice investors, to visualize and calculate the future value of their savings under different investment scenarios.
 
-Value
+The calculator's core strength lies in its transparent, formula-driven approach and robust input handling, making the principles of compounding easily understandable.
 
-Project Name
+Key Features and Calculation Modes
 
-Comprehensive Investment Calculator
+The program supports two primary modes of investment calculation:
 
-Branch
+Lump-Sum Investment:
 
-Artificial Intelligence
+Description: Calculates the future value of a single, upfront deposit.
 
-Slot
+Compounding: Annual.
 
-A11 + A12 + A13
+Formula: $A = P (1 + r)^t$
 
-Developed in
+Investment with Monthly Contributions (Annuity Model):
 
-Python 3.x (Standard Library)
+Description: Models a scenario involving an initial principal plus continuous, regular monthly contributions (Dollar-Cost Averaging).
 
-2. Executive Summary
+Compounding: Monthly ($n=12$).
 
-This project presents a command-line utility developed in Python to facilitate precise financial modeling of long-term investments. Addressing the common barrier of complexity in compound interest calculations, the tool provides two distinct, mathematically robust modes for projecting future portfolio value: a Lump-Sum Investment model and a Regular Monthly Contributions (Annuity) model. The core strength of the application lies in its transparent, formula-driven calculations and its highly resilient input validation system, ensuring reliable and educational financial projections for the user.
-
-3. Project Objectives
-
-The primary objectives of this project were:
-
-To accurately implement the complex mathematical formulas for compound interest and future value of an annuity.
-
-To create a highly modular and readable Python program using distinct functions for calculation logic (calculate_future_value, calculate_future_value_with_contributions).
-
-To build a robust user interface capable of handling non-numeric and negative inputs gracefully, maximizing usability and preventing runtime errors.
-
-To provide a clear, detailed output that differentiates between the principal invested and the total interest earned over the investment period.
-
-4. Methodology and Technical Approach
-
-The calculator utilizes standard financial mathematics, with the core logic implemented in Python:
-
-Lump-Sum Calculation: The function calculate_future_value uses the $A = P (1 + r)^t$ formula, compounded annually, to model single investment growth.
-
-Annuity Calculation: The function calculate_future_value_with_contributions combines the future value of the initial principal with the future value of an ordinary annuity. It uses monthly compounding (n=12) for enhanced accuracy in real-world savings scenarios, utilizing the formula:
+Formula:
 
 
 $$\text{FV} = P \left(1 + \frac{r}{n}\right)^{nt} + \text{PMT} \left[ \frac{\left(1 + \frac{r}{n}\right)^{nt} - 1}{\frac{r}{n}} \right]$$
 
-Modular Programming: A dedicated get_valid_input utility function ensures type safety and non-negativity checks, centralizing error handling and simplifying the main execution flow.
+Technical Details:
 
-5. Deliverables and Impact
+  Developed in:        Python 3.x (Standard Library)
 
-The key deliverable is a functional, standalone Python script (investment_calculator.py) that empowers users, particularly students and novice investors, to model their investment growth and immediately grasp the benefits of consistent saving and compounding. The project serves as both a practical tool and an educational aid in demonstrating fundamental financial principles.
+  Dependencies:        None (Uses only built-in functions)
+
+  Core Functions:      calculate_future_value(), calculate_future_value_with_contributions(), get_valid_input()
+
+  Submission Context:  VIT Bhopal, Branch: Artificial Intelligence, Slot: A11 + A12 + A13
+
+  Submitted By:        Sanu Singh (Reg. No: 25MIM10171)
+
+  Submitted To:        Dr. Pavithra Mam
+
+Getting Started:
+
+To run the calculator, execute the script in your terminal:
+
+python investment_calculator.py
