@@ -1,10 +1,10 @@
-💰 Comprehensive Investment Calculator (Python)
+Comprehensive Investment Calculator (Python)
 
 This project is a command-line Python program designed to calculate the future value of investments, supporting both single lump-sum deposits and regular monthly contributions.
 
 It is a helpful tool for personal finance modeling and understanding the power of compound interest and regular savings.
 
-🌟 Features
+Features:
 
 ->Two Calculation Modes:
 
@@ -18,7 +18,7 @@ It is a helpful tool for personal finance modeling and understanding the power o
 
 ->Clear Structure: Uses separate, well-commented functions for each calculation mode.
 
-🚀 Getting Started
+Getting Started:
 
 Prerequisites
 
@@ -37,7 +37,7 @@ How to Run:
 
 5. Follow the interactive prompts to select the calculation mode and enter your investment details.
 
-📊 Calculation Details
+ Calculation Details:
 
 1. Lump-Sum Investment Mode (calculate_future_value)
 
@@ -67,4 +67,5 @@ Where $n=12$ (monthly compounding) and $PMT$ is the monthly contribution.
 If you re-installed Python, make sure you checked the box "Add python.exe to PATH" during installation.
 
 If these steps are completed, running the script in your terminal should execute the program successfully.
+
 
